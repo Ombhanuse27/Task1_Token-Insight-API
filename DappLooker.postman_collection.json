@@ -1,0 +1,32 @@
+{
+	"info": {
+		"name": "DappLooker Assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Token Insight",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"vs_currency\": \"usd\",\n    \"history_days\": 30\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/token/bitcoin/insight",
+					"protocol": "http",
+					"host": ["localhost"],
+					"port": "3000",
+					"path": ["api", "token", "bitcoin", "insight"]
+				}
+			},
+			"response": []
+		}
+	]
+}
