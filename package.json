@@ -1,0 +1,29 @@
+{
+  "name": "dapplooker-token-insight",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "next": "14.1.0",
+    "openai": "^4.20.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "jest": "^30.2.0",
+    "node-mocks-http": "^1.17.2",
+    "ts-jest": "^29.4.6",
+    "typescript": "^5"
+  }
+}
